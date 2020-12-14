@@ -1,0 +1,10 @@
+TimeStamp [A-Z][a-z]{2}\s+\d*\s\d{4}\s\d{2}\:\d{2}\:\d{2}\+\d{2}\:\d{2}
+HostName [A-Z]{3}\-\d
+Test [%]{2}
+dd \d{2}
+ModuleName [A-Za-z0-9]+
+Severity \d{1}
+Brief ([A-Z0-9]+\_*)*
+i \([a-z]\)
+Count \d*
+Description ([\d\D]*)
