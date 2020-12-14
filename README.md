@@ -12,18 +12,15 @@ According to the training data provided, the algorithm model is trained, and the
 ├── requirements.txt    # 
 │
 ├── documents    # will be update
-│    ├── 基于MEC平台的网络设备故障定因项目介绍v2.docx    # 文档基础说明第二版
-│    ├── 基于MEC平台的网络设备故障定因项目介绍.pdf    # pdf版的说明文档
-│    ├── 基于MEC平台的网络设备故障定因赛题说明.pdf    # 赛题说明文档
-│    ├── eclat告警规则和关系网络分析.docx    # eclat算法说明
-│    ├── IP RAN派单规则.docx    # 派单规则文档 
-│    └── ip_ran综合网管告警监控指引手册-2017-11-30.doc    # 指引手册
+│    ├── 基于MEC平台的网络设备故障定因赛题说明.pdf    # question description
+│    ├── GuoChuang-ChapterIX.pdf    # Presentation pdf
+│    └── GuoChuang-ChapterIX.ppt    # Presentation slide
 │
 ├── dataSet    # save the data 
 │    ├──A_pattern    # regulization data for dataset A
 │    │    └──pattern.txt    
 │    │
-|    └──B_pattern    # regulization data for dataset A
+|    └──B_pattern    # regulization data for dataset B
 │         └──pattern.txt    
 │
 ├── scripts    # code   
@@ -38,7 +35,7 @@ According to the training data provided, the algorithm model is trained, and the
 |         ├── A-result.csv    #
 |         └── B-result.csv    # 
 │
-├── model    # model save 
+└── model    # model save 
     ├── A-rule.csv    # will be update
     └── B-rule.csv    # will be update
 
@@ -48,7 +45,7 @@ According to the training data provided, the algorithm model is trained, and the
 
 ## How to use
 
-1. cmd line 
+1. in cmd line,
 
    ```
    python main.py
@@ -56,12 +53,14 @@ According to the training data provided, the algorithm model is trained, and the
 
    
 
-2. output 
+2. output data will be saved as the below folder
+
+   
 
    ```
 model/    # model 
    output/process/    # node score 
-output/result/    # result
+   output/result/    # result
    ```
    
    
