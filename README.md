@@ -51,14 +51,10 @@ According to the training data provided, the algorithm model is trained, and the
    python main.py
    ```
 
-   
-
 2. output data will be saved as the below folder
 
-   
-
    ```
-model/    # model 
+   model/    # model 
    output/process/    # node score 
    output/result/    # result
    ```
