@@ -8,3 +8,6 @@
 @Function:
 
 """
+
+def mian():
+    pass
